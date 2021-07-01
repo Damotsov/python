@@ -8,7 +8,7 @@ for i in count(1):
 ##########################################################
 c=0
 for i in cycle('rep'):
-    if c>10:
+    if c > 10:
         break
     print(i)
     c += 1
